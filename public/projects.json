@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "ProdQuery",
+    "image": "https://i.ibb.co/0pZH7C7Y/all-devices-black-2.png",
+    "stack": ["React", "Firebase Auth", "Tailwind", "Express.js", "MongoDB"],
+    "features": [
+      "Query-based boycott system",
+      "User voting & reports",
+      "Secure JWT protected routes"
+    ],
+    "description": "ProdQuery is a boycott-focused awareness platform where users can view, submit, and vote on product-related queries. It promotes transparency and encourages ethical consumer choices.",
+    "live": "https://prod-query-e68b6.web.app/",
+    "github": "https://github.com/Samiul821/ProdQuery-Project",
+    "challenges": "Building a dynamic reason-query system and token protection.",
+    "improvements": "Add public voting, comment section, and admin analytics."
+  },
+  {
+    "id": "2",
+    "name": "Green Circle",
+    "image": "https://i.ibb.co/ym6DV6pq/all-devices-black-3.png",
+    "stack": ["React", "MongoDB", "Tailwind CSS", "Express.js"],
+    "features": [
+      "Eco-friendly product listing",
+      "Category & filtering support",
+      "User-friendly design and UX"
+    ],
+    "description": "Green Circle is an eco-friendly e-commerce platform that promotes sustainable products. It supports categories, filters, and smooth user experiences.",
+    "live": "https://green-circle-bdbd6.web.app/",
+    "github": "https://github.com/Samiul821/Green-Circle-Client",
+    "challenges": "Product category management and search filter.",
+    "improvements": "Add payment integration and product review system."
+  },
+  {
+    "id": "3",
+    "name": "App Store",
+    "image": "https://i.ibb.co/PqXnS65/all-devices-black-4.png",
+    "stack": ["React", "Firebase", "Tailwind CSS"],
+    "features": [
+      "Modern app showcase",
+      "Category-wise app browsing",
+      "Responsive clean interface"
+    ],
+    "description": "App Store is a modern, responsive platform to browse and showcase apps. Users can explore app details, categories, and enjoy a clean interface.",
+    "live": "https://app-store-bd.netlify.app/apps",
+    "github": "https://github.com/Samiul821/App-Store-Client",
+    "challenges": "UI filtering and route-protected app pages.",
+    "improvements": "Add app rating, dark mode, and admin upload panel."
+  }
+]

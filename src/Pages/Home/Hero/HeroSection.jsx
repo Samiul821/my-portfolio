@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import profileImage from "../../assets/rsz_1image_9.png"; // ⬅️ Replace with your image path
+import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
+import profileImage from "../../../assets/rsz_1image_9.png"
 import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
@@ -13,7 +13,7 @@ const Banner = () => {
   ];
 
   return (
-    <section className="relative min-h-[500px] md:h-[700px] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-[10%] py-16 bg-slate-950 text-white font-body overflow-hidden">
+    <section id="home" className="relative min-h-[500px] md:h-[700px] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-[10%] py-16 bg-slate-950 text-white font-body overflow-hidden">
       {/* 🔵 Light Animated BG Blobs */}
       <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-indigo-500 blur-[150px] rounded-full opacity-30 animate-pulse" />
       <div className="absolute bottom-[-100px] right-[-100px] w-[300px] h-[300px] bg-pink-500 blur-[150px] rounded-full opacity-20 animate-ping" />
@@ -42,7 +42,7 @@ const Banner = () => {
 
         <div className="flex justify-center md:justify-start gap-6 text-3xl mt-2">
           <a
-            href="https://github.com/"
+            href="https://github.com/Samiul821"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
@@ -50,7 +50,7 @@ const Banner = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/samiul-islam-40942a34a/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
@@ -58,12 +58,12 @@ const Banner = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://facebook.com/"
+            href="https://x.com/SmSamiul890"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
           >
-            <FaFacebook />
+            <FaTwitter />
           </a>
         </div>
 
