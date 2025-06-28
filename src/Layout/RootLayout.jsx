@@ -1,15 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Pages/Navbar/Navbar";
-import HeroBG from "../Pages/Shared/HeroBG";
 
 const RootLayout = () => {
   return (
     <div>
-      <header className="">
-        <Navbar></Navbar>
+      <header>
+        <Navbar />
       </header>
-      <main className="pt-24 min-h-screen">
+      {/* Assuming navbar height is 64px (4rem), so padding-top: 16 (4*4) */}
+      <main className="pt-16 min-h-screen">
         <Outlet />
       </main>
     </div>
