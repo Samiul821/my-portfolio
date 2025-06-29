@@ -133,7 +133,7 @@ const ContactSection = () => {
               <input
                 type="text"
                 id="name"
-                name="name" // ✅ updated
+                name="name"
                 placeholder="Enter your name"
                 required
                 className="w-full px-4 py-2 bg-white/10 text-white rounded-md border border-white/20 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all duration-300"
