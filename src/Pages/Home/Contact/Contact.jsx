@@ -133,7 +133,7 @@ const ContactSection = () => {
               <input
                 type="text"
                 id="name"
-                name="from_name" // ✅ updated
+                name="name" // ✅ updated
                 placeholder="Enter your name"
                 required
                 className="w-full px-4 py-2 bg-white/10 text-white rounded-md border border-white/20 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all duration-300"
@@ -148,7 +148,7 @@ const ContactSection = () => {
               <input
                 type="email"
                 id="email"
-                name="from_email" // ✅ updated
+                name="email" // ✅ updated
                 placeholder="Enter your email"
                 required
                 className="w-full px-4 py-2 bg-white/10 text-white rounded-md border border-white/20 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all duration-300"
