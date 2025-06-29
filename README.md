@@ -25,24 +25,19 @@ This site is built with **React**, **Tailwind CSS**, and powered by smooth anima
 
 ## 🛠 Technologies Used
 
-- ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) React.js  
-- ![React Router](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) React Router  
-- ![Tailwind CSS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg) Tailwind CSS  
-- ![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg) JavaScript (ES6+)  
-- ![EmailJS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/emailjs/emailjs-original.svg) EmailJS  
-- ![Framer Motion](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framer/framer-motion.svg) Framer Motion  
-- ![React Icons](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg) React Icons  
-- ![TSParticles](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg) tsparticles (for particle backgrounds)  
-
+- React.js  
+- React Router  
+- Tailwind CSS  
+- Framer Motion  
+- EmailJS  
+- react-tsparticles (animated particle background)  
+- React Icons  
 
 ---
 
 ## 💻 Live Site
 
 Check out the live project here: [https://samiuldev.netlify.app/](https://samiuldev.netlify.app/)
-
----
-
 
 
 ---
