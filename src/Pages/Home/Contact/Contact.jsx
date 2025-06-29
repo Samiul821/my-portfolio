@@ -65,7 +65,9 @@ const ContactSection = () => {
               Md Samiul Islam
             </h3>
             <p className="text-gray-400">
-              A passionate MERN stack developer from Bogura, Bangladesh, dedicated to building real-world solutions through clean and efficient code.
+              A passionate MERN stack developer from Bogura, Bangladesh,
+              dedicated to building real-world solutions through clean and
+              efficient code.
             </p>
           </div>
 
