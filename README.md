@@ -25,13 +25,16 @@ This site is built with **React**, **Tailwind CSS**, and powered by smooth anima
 
 ## 🛠 Technologies Used
 
-- React.js  
-- React Router  
-- Tailwind CSS  
-- Framer Motion  
-- EmailJS  
-- react-tsparticles (animated particle background)  
-- React Icons  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="20" height="20" /> React.js  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Router" width="20" height="20" /> React Router  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" width="20" height="20" /> Tailwind CSS  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="20" height="20" /> JavaScript  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/emailjs/emailjs-original.svg" alt="EmailJS" width="20" height="20" /> EmailJS  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="20" height="20" /> Node.js (for backend)  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="20" height="20" /> MongoDB (for database)  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framer/framer-motion.svg" alt="Framer Motion" width="20" height="20" /> Framer Motion  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Icons" width="20" height="20" /> React Icons  
+
 
 ---
 
