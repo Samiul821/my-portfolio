@@ -57,5 +57,5 @@ Feel free to reach out via the contact form on the site or through:
 
 1. Clone the repo  
 ```bash
-git clone [https://github.com/yourusername/samiuldev-portfolio.git](https://github.com/Samiul821/my-portfolio)
+git clone https://github.com/Samiul821/my-portfolio
 cd samiuldev-portfolio
