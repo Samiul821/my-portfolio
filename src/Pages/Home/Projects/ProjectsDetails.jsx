@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { loadFull } from "tsparticles";
 import Particles from "react-tsparticles";
-import projects from "../../../../public/projects.json";
+import projects from "../../../assets/projects.json";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -200,7 +200,7 @@ const ProjectDetails = () => {
             >
               GitHub Repo
             </motion.a>
-            
+
             <Link
               to="/"
               className="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-md transition shadow-lg"

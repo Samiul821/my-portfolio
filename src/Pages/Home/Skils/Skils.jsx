@@ -7,7 +7,8 @@ const Skills = ({ skils = [] }) => {
   const secondLine = skils.slice(mid);
 
   return (
-    <section id="skills" className="bg-slate-950 py-16 px-6 md:px-[10%] text-white font-body">
+    <section data-aos="fade-up"
+     data-aos-duration="2000" id="skills" className="bg-slate-950 py-16 px-6 md:px-[10%] text-white font-body">
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-indigo-400">
           My Skills

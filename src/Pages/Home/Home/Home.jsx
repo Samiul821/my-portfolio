@@ -4,11 +4,12 @@ import About from "../About/About";
 import { useLoaderData } from "react-router-dom";
 import Skills from "../Skils/Skils";
 import Projects from "../Projects/Projects";
+import ContactSection from "../Contact/Contact";
 
 const Home = () => {
   const skils = useLoaderData();
   return (
-    <div className="bg-slate-950">
+    <div className="bg-slate-950 space-y-10">
       <div>
         <HeroSection></HeroSection>
       </div>
@@ -25,6 +26,11 @@ const Home = () => {
       <div>
         <Projects></Projects>
       </div>
+      <div className=" h-[2px]  bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 rounded-full"></div>
+      <div>
+        <ContactSection></ContactSection>
+      </div>
+
       <div className=" h-[2px]  bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 rounded-full"></div>
     </div>
   );

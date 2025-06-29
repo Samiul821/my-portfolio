@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import projects from "../../../../public/projects.json";
+import projects from "../../../assets/projects.json";
 
 const Projects = () => {
   return (
     <section
+      data-aos="fade-up"
+      data-aos-duration="3000"
       id="projects"
       className="bg-slate-950 py-16 px-6 md:px-[10%] text-white"
     >
@@ -20,31 +22,34 @@ const Projects = () => {
       <div className="space-y-10">
         {projects.map((project) => (
           <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
             key={project.id}
-            className="bg-slate-900 rounded-xl shadow-xl p-6 flex flex-col md:flex-row  gap-6 items-start hover:shadow-indigo-600/10 transition"
+            className="bg-slate-900 rounded-xl shadow-xl p-6 lg:p-12 flex flex-col lg:flex-row space-x-12 gap-6 hover:shadow-indigo-600/10 transition
+             lg:min-h-[340px]"
           >
             {/* Image */}
-            <img
-              src={project.image}
-              alt={project.name}
-              className="w-full md:w-1/3 lgflex-1 h-60 object-cover rounded-lg"
-            />
+            <div className="w-full lg:w-5/12">
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-auto lg:h-full object-cover rounded-lg"
+              />
+            </div>
 
             {/* Content */}
-            <div className="flex-1 space-y-4">
+            <div className="w-full lg:w-7/12 space-y-4">
               <h3 className="text-2xl font-bold text-indigo-300">
                 {project.name}
               </h3>
               <p className="text-gray-300 text-sm">{project.description}</p>
 
-              {/* Feature list (if needed) */}
               <ul className="list-disc ml-5 text-gray-400 text-sm space-y-1">
                 {project.features.map((feature, idx) => (
                   <li key={idx}>{feature}</li>
                 ))}
               </ul>
 
-              {/* Technology Stack Badges */}
               <div className="flex flex-wrap gap-2 pt-2">
                 {project.stack.map((tech, index) => (
                   <span
@@ -56,7 +61,6 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* Buttons */}
               <div className="flex flex-wrap gap-3 pt-4">
                 <a
                   href={project.live}

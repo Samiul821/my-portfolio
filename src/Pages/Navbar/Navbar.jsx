@@ -54,7 +54,7 @@ const Navbar = () => {
               to={to}
               spy={true}
               smooth={true}
-              offset={-200} // navbar height offset
+              offset={-200}
               duration={500}
               activeClass="text-indigo-400 border-b-2 border-indigo-400 pb-1"
               className="cursor-pointer hover:text-indigo-300 transition"

@@ -2,7 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="relative z-10 px-6 md:px-[10%] py-16 bg-slate-950 text-white font-body">
+    <section data-aos="fade-up"
+     data-aos-duration="2000" id="about" className="relative z-10 px-6 md:px-[10%] py-16 bg-slate-950 text-white font-body">
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-indigo-400">
           About Me
@@ -16,7 +17,7 @@ const About = () => {
         {/* Left image / Optional avatar */}
         <div className="w-full md:w-1/3 flex justify-center">
           <img
-            src="/about-image.png"
+            src="https://i.ibb.co/k2BDPn3H/rsz-1image-9.png"
             alt="Samiul illustration"
             className="w-72 h-72 object-cover rounded-xl border-4 border-indigo-500 shadow-xl"
           />
