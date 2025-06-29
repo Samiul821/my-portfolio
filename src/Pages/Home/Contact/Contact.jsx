@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactSection = () => {
   const whatsappNumber = "01330624539";
@@ -56,43 +57,60 @@ const ContactSection = () => {
 
       <div className="flex flex-col md:flex-row gap-10 items-start">
         {/* Left Side: Info */}
-        <div className="md:w-1/2 space-y-6">
+        {/* Left Side: Info */}
+        <div className="md:w-1/2 space-y-8">
+          {/* Identity Section */}
           <div>
-            <h3 className="text-2xl font-bold text-white">Md Samiul Islam</h3>
-            <p className="text-gray-400 mt-1">
-              A passionate full-stack web developer with a mission to build
-              meaningful digital experiences. I love working with MERN stack and
-              solving real-world problems with code.
+            <h3 className="text-3xl font-bold text-white mb-2">
+              Md Samiul Islam
+            </h3>
+            <p className="text-gray-400">
+              A passionate MERN stack developer from Bogura, Bangladesh, dedicated to building real-world solutions through clean and efficient code.
             </p>
           </div>
 
-          <div>
-            <h4 className="text-xl font-semibold text-indigo-300 mb-2">
-              Email
-            </h4>
-            <p className="text-gray-400">samiuldev72@gmail.com</p>
-          </div>
+          {/* Contact Details Section */}
+          <div className="space-y-4">
+            {/* Location */}
+            <div className="flex items-center gap-3">
+              <FaMapMarkerAlt className="text-indigo-400 text-lg" />
+              <p className="text-gray-300">Bogura, Bangladesh</p>
+            </div>
 
-          <div>
-            <h4 className="text-xl font-semibold text-indigo-300 mb-2">
-              Phone
-            </h4>
-            <p className="text-gray-400">+880 1330-624539</p>
-          </div>
+            {/* Email */}
+            <div className="flex items-center gap-3">
+              <FaEnvelope className="text-indigo-400 text-lg" />
+              <a
+                href="mailto:samiuldev72@gmail.com"
+                className="text-gray-300 hover:text-white transition"
+              >
+                samiuldev72@gmail.com
+              </a>
+            </div>
 
-          <div>
-            <h4 className="text-xl font-semibold text-indigo-300 mb-2">
-              WhatsApp
-            </h4>
-            <a
-              href={`https://wa.me/880${whatsappNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-green-400 hover:text-green-500 transition text-lg"
-            >
-              <FaWhatsapp size={20} />
-              Chat on WhatsApp
-            </a>
+            {/* Phone */}
+            <div className="flex items-center gap-3">
+              <FaPhoneAlt className="text-indigo-400 text-lg" />
+              <a
+                href="tel:+8801330624539"
+                className="text-gray-300 hover:text-white transition"
+              >
+                +880 1330-624539
+              </a>
+            </div>
+
+            {/* WhatsApp */}
+            <div className="flex items-center gap-3">
+              <FaWhatsapp className="text-green-400 text-lg" />
+              <a
+                href={`https://wa.me/880${whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-400 hover:text-green-500 transition"
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
           </div>
         </div>
 

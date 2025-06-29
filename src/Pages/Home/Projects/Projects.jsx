@@ -26,14 +26,14 @@ const Projects = () => {
             data-aos-duration="2000"
             key={project.id}
             className="bg-slate-900 rounded-xl shadow-xl p-6 lg:p-12 flex flex-col lg:flex-row space-x-12 gap-6 hover:shadow-indigo-600/10 transition
-             lg:min-h-[340px]"
+         lg:min-h-[340px]"
           >
             {/* Image */}
             <div className="w-full lg:w-5/12">
               <img
                 src={project.image}
                 alt={project.name}
-                className="w-full h-auto lg:h-full object-cover rounded-lg"
+                className="w-full h-full max-h-[320px] lg:max-h-none object-contain rounded-lg"
               />
             </div>
 
