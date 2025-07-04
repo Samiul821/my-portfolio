@@ -50,7 +50,7 @@ const Banner = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/samiul-islam-40942a34a/"
+            href="https://www.linkedin.com/in/md-samiul-islam890/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
