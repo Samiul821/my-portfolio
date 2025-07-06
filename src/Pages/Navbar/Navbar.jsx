@@ -67,7 +67,7 @@ const Navbar = () => {
         {/* Resume Button */}
         <div className="hidden md:block">
           <a
-            href="/https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
+            href="https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
             download
             className="bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-md transition"
           >
@@ -104,7 +104,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
+              href="https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
               download
               className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-md transition w-full text-center"
             >
