@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
-import profileImage from "../../../assets/rsz_1image_9.png"
+import profileImage from "../../../assets/rsz_1image_9.png";
 import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
@@ -13,7 +13,10 @@ const Banner = () => {
   ];
 
   return (
-    <section id="home" className="relative min-h-[500px] md:h-[700px] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-[10%] py-16 bg-slate-950 text-white font-body overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-[500px] md:h-[700px] flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-[10%] py-16 bg-slate-950 text-white font-body overflow-hidden"
+    >
       {/* 🔵 Light Animated BG Blobs */}
       <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-indigo-500 blur-[150px] rounded-full opacity-30 animate-pulse" />
       <div className="absolute bottom-[-100px] right-[-100px] w-[300px] h-[300px] bg-pink-500 blur-[150px] rounded-full opacity-20 animate-ping" />
@@ -70,14 +73,13 @@ const Banner = () => {
         {/* Download CV Button */}
         <div className="mt-6">
           <a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
             className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-lg shadow-xl 
-               transition duration-300 transform hover:-translate-y-1 hover:scale-105
-               focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50
-               active:scale-95 active:bg-indigo-800"
+    transition duration-300 transform hover:-translate-y-1 hover:scale-105
+    focus:outline-none focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50
+    active:scale-95 active:bg-indigo-800"
           >
-            Download CV
+            Download Resume
           </a>
         </div>
       </div>

@@ -67,11 +67,11 @@ const Navbar = () => {
         {/* Resume Button */}
         <div className="hidden md:block">
           <a
-            href="/resume.pdf"
+            href="/https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
             download
             className="bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-md transition"
           >
-            Download CV
+            Resume
           </a>
         </div>
 
@@ -104,11 +104,11 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/resume.pdf"
+              href="/https://drive.google.com/uc?export=download&id=1YqyzltnqPAfhxvNvDR7PGDWaKl9rWgBX"
               download
               className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-md transition w-full text-center"
             >
-              Download CV
+              Resume
             </a>
           </li>
         </ul>
